@@ -1,0 +1,175 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+#nav-container{
+    background-color: bisque;
+}
+
+.navigation-list ul{
+
+}
+.navigation-list li{
+    display: inline-block;
+    margin-right: 5rem;
+    margin-top: 2.7rem;
+    font-family: 'Sofia', cursive;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-list li:hover{
+    transform: scale(1.25);
+    text-decoration-line: underline;
+    color: darkred;
+}
+
+.navigation-list li a:visited,
+.navigation-list li a:link{
+    color: black;
+}
+
+.navigation-list li a:visited:hover,
+.navigation-list li a:link:hover{
+    color: darkred;
+}
+
+#nav-container img{
+    width: 25%;
+}
+
+#main-image{
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position:top;
+    
+}
+
+#container2{
+    background-image: url(cork-wallet/cork-wallet.png);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+#container2 p{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    font-family: 'Lateef', cursive;
+    font-size: 1.4rem;
+}
+.card-block{
+    padding: 1rem 0;
+}
+
+.card-text{
+    font-family: 'Lateef', cursive;
+    font-size: 1.4rem;
+}
+
+#desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container3{
+    background-image: url(concrete_wall_@2X.png);
+    color: white;
+}
+
+#container3 h2,p{
+    width: 60%;
+    margin: 2rem auto;
+}
+
+#container3 p{
+    margin-bottom: 3rem;
+}
+.card{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+#container3 .card img{
+    transition: all 0.5s ease-in-out;
+}
+
+#container3 .card img:hover{
+    transform: scale(1.1);
+}
+
+#container4{
+    background-image: url(natural_paper_@2X.png);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#container4 h2{
+    margin-bottom: 3rem;
+}
+#opinion{
+    font-family: 'Lateef', cursive;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+
+#opinion p{
+    font-family: 'Sofia', cursive;
+    font-size: 1rem;
+}
+
+#container5{
+    background-image: url(sandpaper.png);
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: 'Sofia', cursive;
+}
+
+#container6{
+    background-image: url(cork-wallet/cork-wallet.png);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#container6 img{
+    width: 10%;
+}
+
+#container6 p{
+    font-size: 1.3rem;
+    font-family: 'Lateef', cursive;
+}
+
+#icons{
+    font-size: 2rem;
+    color: #666;
+}
+#icons a {
+    text-decoration: none;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    
+    .navigation-list li{
+        display: inline-block;
+        margin-right: 1.3rem;
+        margin-top: 1.3rem;
+        
+    }
+        
+    #navi-image{
+        display: none;
+    }
+    
+    #container5 p{
+        font-size: 1.63rem;
+    }
+}
